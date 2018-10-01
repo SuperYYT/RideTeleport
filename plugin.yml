@@ -1,0 +1,17 @@
+name: RideTeleport
+main: ridetp\RideTeleport
+version: 1.0
+api:
+ - 3.0.0
+ - 4.0.0
+load: POSTWORLD
+author: vardo
+
+permissions:
+  rtp.*:
+    default: op
+    description: RideTeleportの設定コマンド
+    children:
+      rtp.command:
+        default: op
+        description: RideTeleportの設定コマンド
