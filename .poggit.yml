@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/OtorisanVardo/RideTeleport
+branches:
+- master
+projects:
+  RideTeleport:
+    path: ""
+    icon: "/utils/icon.png"
+...
