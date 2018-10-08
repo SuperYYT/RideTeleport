@@ -24,7 +24,11 @@ class RideTeleport extends PluginBase
         $this->loadLanguage();
         if (!file_exists($this->getDataFolder())) @mkdir($this->getDataFolder(), 0744, true);
         $this->config = new Config($this->getDataFolder()."coordinations.json", Config::JSON, []);
-        $this->getLogger()->info("RideTeleport v".$this->getDescription()->getVersion()." was enabled.");
+
+        $this->getLogger()->info("author : OtorisanVardo");
+        $this->getLogger()->info("contact : @o10ri3_");
+        $this->getLogger()->info("language: ".$this->languageManager->get("language"));
+
         $this->getServer()->getPluginManager()->registerEvents(new RTPEventListener($this), $this);
 
         $this->getServer()->getCommandMap()->register("rtp", new RTPCommand($this));
