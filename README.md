@@ -26,7 +26,7 @@ language: eng
 ```
   
 # Sample Movie
-*coming soon...*
+[![Not Found](http://img.youtube.com/vi/MGXLX098M_c/0.jpg)](https://youtu.be/MGXLX098M_c)
   
 # Support language
 * English
