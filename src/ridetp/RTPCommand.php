@@ -93,6 +93,7 @@ class RTPCommand extends Command
                     $this->getConfigData()->save();
                     $sender->sendMessage("\n".$this->owner::TAG_INFO.$this->owner->getLanguageManager()->get("command.delall.message"));
                     unset($sender->tapdel);
+                    unset($sender->session);
                     return true;
                     break;
 
@@ -104,8 +105,8 @@ class RTPCommand extends Command
                     }
                     $sender->session = "fromto";
                     $sender->sendMessage("\n".$this->owner::TAG_INFO.$this->owner->getLanguageManager()->get("command.fromto.message"));
-                    $item1 = Item::get(351, 10, 1)->setCustomName("始点");
-                    $item2 = Item::get(351, 12, 1)->setCustomName("終点");
+                    $item1 = Item::get(351, 10, 1)->setCustomName($this->owner->getLanguageManager()->get("command.fromto.firstp"));
+                    $item2 = Item::get(351, 12, 1)->setCustomName($this->owner->getLanguageManager()->get("command.fromto.endp"));
                     $sender->getInventory()->setItem(0, $item1);
                     $sender->getInventory()->setItem(1, $item2);
                     return true;
@@ -126,6 +127,7 @@ class RTPCommand extends Command
                     $item2 = Item::get(351, 12, 1);
                     $sender->getInventory()->removeItem($item1);
                     $sender->getInventory()->removeItem($item2);
+                    if (isset($sender->session)) unset($sender->session);
                     return true;
                     break;
 
