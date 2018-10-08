@@ -1,6 +1,6 @@
 # RideTeleport
 ![img](https://github.com/OtorisanVardo/RideTeleport/blob/master/utils/logo.png)
-You can teleport to anather place so fast!!
+You can teleport to another place so fast!!
   
 # Command
 ```
