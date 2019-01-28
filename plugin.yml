@@ -10,8 +10,8 @@ author: vardo
 permissions:
   rtp.*:
     default: op
-    description: RideTeleportの設定コマンド
+    description: RideTeleport的设定命令
     children:
       rtp.command:
         default: op
-        description: RideTeleportの設定コマンド
+        description: RideTeleport的设定指令
