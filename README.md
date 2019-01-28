@@ -4,25 +4,25 @@
   
 # Command
 ```
-/rtp from       Setting teleport first point.
-/rtp to         Setting teleport last point.
-/rtp fromto     Setting teleport point first and last one at once.
-/rtp setfromto  Please use after you use /rtp fromto.
-/rtp del        Remove a teleport block.
-/rtp tapdel     Select the teleport blocks you want to remove.
-/rtp delall     Please use after you use /rtp tapdel.
-/rtp reset      Reset a setting process.
-/rtp help       How to use.
+/rtp from       设置一个传送起点
+/rtp to         设置一个传送终点
+/rtp fromto     首先设置传送起点，然后同时设置终点。
+/rtp setfromto  使用 /rtp fromto 后使用
+/rtp del        移除传送块
+/rtp tapdel     选择要删除的传送模块
+/rtp delall     使用 /rtp tapdel 后使用
+/rtp reset      重置一个设置过程
+/rtp help       如何使用
 ```
   
 # Config.yml
 ```
-# RideTP setting file
+# RideTP设置文件
 
-# Select a language
+# 选择一个语言
 #  English > eng
-#  Japanese > jpn
-#  Chinese > chs
+#  日本語 > jpn
+#  简体中文 > chs
 language: chs
 ```
   
@@ -31,8 +31,8 @@ language: chs
   
 # 支持语言
 * English
-* Japanese
-* Chinese
+* 日本語
+* 简体中文
  
 # 联系
 Please reply to author's [twitter account](https://twitter.com/o10ri3_)
