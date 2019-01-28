@@ -4,4 +4,5 @@
 # Select a language
 #  English > eng
 #  Japanese > jpn
-language: eng
+#  Chinese > chs
+language: chs
