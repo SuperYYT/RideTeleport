@@ -32,7 +32,7 @@ language: chs
 # 支持语言
 * English
 * 日本語
-* 简体中文
+* 简体中文（By YYT）
  
 # 联系
 Please reply to author's [twitter account](https://twitter.com/o10ri3_)
