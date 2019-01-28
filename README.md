@@ -1,6 +1,6 @@
 # RideTeleport
 ![img](https://github.com/OtorisanVardo/RideTeleport/blob/master/utils/logo.png)
-You can teleport to another place so fast!!
+你可以这么快地传送到另一个地方!!
   
 # Command
 ```
@@ -22,21 +22,23 @@ You can teleport to another place so fast!!
 # Select a language
 #  English > eng
 #  Japanese > jpn
-language: eng
+#  Chinese > chs
+language: chs
 ```
   
-# Sample Movie
+# 范例视频
 [![Not Found](http://img.youtube.com/vi/MGXLX098M_c/0.jpg)](https://youtu.be/MGXLX098M_c)
   
-# Support language
+# 支持语言
 * English
 * Japanese
+* Chinese
  
-# Contact
-Please reply to my [twitter account](https://twitter.com/o10ri3_)
+# 联系
+Please reply to author's [twitter account](https://twitter.com/o10ri3_)
   
-# Help me
-Now, this plugin supported a few languages.  
-So I want someone to make language file.  
-If you willing to make, please do it on based "eng.ini".
-And please send as an issue with language file.
+# 支持
+现在，这个插件支持几种语言。
+所以我希望有人制作语言文件。
+如果您愿意制作，请以“eng.ini”为基础。
+请以语言文件的形式发送。
